@@ -1,1 +1,1 @@
-contains images for project
+contains all the image files
