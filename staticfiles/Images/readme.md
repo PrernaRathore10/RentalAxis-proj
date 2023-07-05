@@ -1,1 +1,1 @@
-contains all images of staticfiles
+contains all the image files
