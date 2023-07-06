@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    {% load static %}
     <title>Donation Feature</title>
-    <link rel="stylesheet" type="text/css" href="/static/donation.css' %}" />
-    <link rel="stylesheet" type="text/css" href="/Template/nav.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'donation.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'nav.css' %}" />
   </head>
   <body>
     <nav>
@@ -12,10 +13,10 @@
           <a href="#">RentalAxis</a>
         </div>
         <ul class="nav-links">
-          <li><a href="/Template/index.html">Home</a></li>
-          <li><a href="/Template/bot.html">chatbot</a></li>
-          <li><a href="/Template/index.html">Services</a></li>
-          <li><a href="/Template/contact.html">Contact</a></li>
+          <li><a href="{% url 'index' %}">Home</a></li>
+          <li><a href="{% url 'bot' %}">chatbot</a></li>
+          <li><a href="{% url 'index' %}">Services</a></li>
+          <li><a href="{% url 'contact' %}">Contact</a></li>
         </ul>
       </div>
     </nav>

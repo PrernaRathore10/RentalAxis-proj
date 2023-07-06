@@ -2,6 +2,7 @@
 <!---Coding By CodingLab | www.codinglabweb.com--->
 <html lang="en">
   <head>
+    {% load static %}
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -18,10 +19,10 @@
           <a href="#">RentalAxis</a>
         </div>
         <ul class="nav-links">
-          <li><a href="/Template/index.html">Home</a></li>
-          <li><a href="/Template/chatbot">chatbot</a></li>
-          <li><a href="/Template/index.html">Services</a></li>
-          <li><a href="/Template/contact.html">Contact</a></li>
+          <li><a href="{% url 'index' %}">Home</a></li>
+          <li><a href="{% url 'chatbot' %}">Chatbot</a></li>
+          <li><a href="{% url 'index' %}">Services</a></li>
+          <li><a href="{% url 'contact' %}">Contact</a></li>
         </ul>
       </div>
     </nav>

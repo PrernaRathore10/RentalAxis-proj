@@ -226,7 +226,7 @@
         <div class="header-user-actions">
 
           <button class="action-btn" >
-            <a href="login.html">
+            <a href="{% url 'login' %}">
             <ion-icon name="person-outline"></ion-icon>
             </a>
           </button>
@@ -560,14 +560,14 @@
             <ul class="dropdown-list">
 
               <li class="dropdown-item">
-                <a href="register_rent.html">To Rent Product</a>
+                <a href="{% url 'register_rent' %}">To Rent Product</a>
               </li>
 
               <li class="dropdown-item">
-                <a href="register_sell.html">To Sell Product</a>
+                <a href="{% url 'register_sell' %}">To Sell Product</a>
               </li>
               <li class="dropdown-item">
-                <a href="donation.html">To Donate Product</a>
+                <a href="{% url 'donation' %}">To Donate Product</a>
               </li>
 
             </ul>
@@ -590,11 +590,11 @@
           </li> -->
 
           <li class="menu-category">
-            <a href="login.html" class="menu-title">User Login</a>
+            <a href="{% url 'login' %}" class="menu-title">User Login</a>
           </li>
 
           <li class="menu-category">
-            <a href="bot.html" class="menu-title">Chatbot</a>
+            <a href="{% url 'bot' %}" class="menu-title">Chatbot</a>
           </li> 
 
         </ul>

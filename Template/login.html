@@ -1,12 +1,12 @@
-{% load static %}
 <!DOCTYPE html>
 <html>
   <head>
+    {% load static %}
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="slide navbar style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="slide navbar style.css" />
     <!-- <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet"> -->
-    <link href="{% static '/static/login.css' %}" rel="stylesheet" />
-    <link href="{% static '/static/nav.css' %}" rel="stylesheet" />
+    <link href="{% static 'login.css' %}" rel="stylesheet" />
+    <link href="{% static 'nav.css' %}" rel="stylesheet" />
   </head>
   <body>
     <nav>
@@ -15,10 +15,10 @@
           <a href="#">RentalAxis</a>
         </div>
         <ul class="nav-links">
-          <li><a href="/Template/index.html">Home</a></li>
-          <li><a href="chatbot">chatbot</a></li>
-          <li><a href="/Template/index.html">Services</a></li>
-          <li><a href="/Template/contact.html">Contact</a></li>
+          <li><a href="{% url 'index' %}">Home</a></li>
+          <li><a href="{% url 'chatbot' %}">Chatbot</a></li>
+          <li><a href="{% url 'index' %}">Services</a></li>
+          <li><a href="{% url 'contact' %}">Contact</a></li>
         </ul>
       </div>
     </nav>

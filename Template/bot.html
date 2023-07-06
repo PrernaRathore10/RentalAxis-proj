@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    {% load static %}
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,10 +16,10 @@
           <a href="#">RentalAxis</a>
         </div>
         <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="chatbot">chatbot</a></li>
-          <li><a href="index.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="{% url 'index' %}">Home</a></li>
+          <li><a href="{% url 'chatbot' %}">Chatbot</a></li>
+          <li><a href="{% url 'index' %}">Services</a></li>
+          <li><a href="{% url 'contact' %}">Contact</a></li>
         </ul>
       </div>
     </nav>

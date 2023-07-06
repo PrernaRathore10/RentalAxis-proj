@@ -11,3 +11,9 @@ def Register_rent(request):
 
 def Register_sell(request):
     return render(request, 'register_sell.html')
+    
+def Donation(request):
+    return render(request, 'donation.html')
+
+def Chatbot(request):
+    return render(request, 'bot.html')
