@@ -28,4 +28,6 @@ urlpatterns = [
     path('register_sell/', views.Register_sell, name='register_sell'),
     path('donation/', views.Donation, name='donation'),
     path('chatbot/', views.Chatbot, name='bot'),
+    path('contact/', views.Contact, name='contact'),
+
 ]

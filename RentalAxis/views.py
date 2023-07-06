@@ -17,3 +17,6 @@ def Donation(request):
 
 def Chatbot(request):
     return render(request, 'bot.html')
+
+def Contact(request):  
+    return render('Contact us')
