@@ -43,6 +43,12 @@ nav.sticky .logo a {
   list-style: none;
   margin: 0 8px;
 }
+
+
+.nav-content .nav-links .active a {
+  background-color: hsl(0, 100%, 70%);;
+}
+
 .nav-links li a {
   text-decoration: none;
   color: white;

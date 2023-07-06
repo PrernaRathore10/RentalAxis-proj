@@ -15,12 +15,11 @@ body {
   background: #4372ee;
 }
 .container {
-  position: absolute;
+  position: relative;
   max-width: 700px;
   width: 100%;
   background: #fff;
   padding: 25px;
-  margin-top: 80px;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
@@ -31,11 +30,11 @@ body {
   text-align: center;
 }
 .container .form {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .form .input-box {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .input-box label {
