@@ -46,7 +46,7 @@ nav.sticky .logo a {
 
 
 .nav-content .nav-links .active a {
-  background-color: hsl(0, 100%, 70%);;
+  background-color: hsl(275, 100%, 70%);
 }
 
 .nav-links li a {
@@ -98,7 +98,7 @@ h2 {
   padding: 0px;
 }
 .site-logo span {
-  color: #f44770;
+  color: hsl(275, 100%, 70%);
 }
 /* .site-nav-menu { */
 /* float: right; */
