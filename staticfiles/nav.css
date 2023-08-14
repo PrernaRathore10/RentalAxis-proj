@@ -17,7 +17,7 @@ nav {
 }
 nav.sticky {
   padding: 15px 20px;
-  background: white;
+  background: rgb(255, 255, 255);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 nav .nav-content {
@@ -43,6 +43,12 @@ nav.sticky .logo a {
   list-style: none;
   margin: 0 8px;
 }
+
+
+.nav-content .nav-links .active a {
+  background-color: hsl(0, 100%, 70%);;
+}
+
 .nav-links li a {
   text-decoration: none;
   color: white;
