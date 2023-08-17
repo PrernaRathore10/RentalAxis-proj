@@ -18,9 +18,9 @@
   --spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(0, 0%, 47%);
   --eerie-black: hsl(0, 0%, 13%);
-  --salmon-pink: hsl(272, 98%, 80%);
+  --pastel-purple: hsl(272, 98%, 80%);
   --sandy-brown: hsl(29, 90%, 65%);
-  --bittersweet: hsl(275, 100%, 70%);
+  --purple: hsl(275, 100%, 70%);
   --ocean-green: hsl(152, 51%, 52%);
   --davys-gray: hsl(0, 0%, 33%);
   --cultured: hsl(0, 0%, 93%);
@@ -348,7 +348,7 @@ body::-webkit-scrollbar-thumb:hover {
   position: absolute;
   top: 15px;
   right: 15px;
-  background: var(--salmon-pink);
+  background: hsl(272, 98%, 80%);
   color: var(--white);
   font-size: 16px;
   padding: 5px;
@@ -411,7 +411,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .btn-newsletter:hover {
-  background: var(--salmon-pink);
+  background: hsl(272, 98%, 80%);
 }
 
 /**
@@ -603,7 +603,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .search-btn:hover {
-  color: var(--salmon-pink);
+  color: hsl(272, 98%, 80%);
 }
 
 .mobile-bottom-navigation {
@@ -642,7 +642,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .mobile-bottom-navigation .count {
-  background: var(--bittersweet);
+  background: hsl(275, 100%, 70%);
   color: var(--white);
   position: absolute;
   top: 0;
@@ -700,7 +700,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .menu-top .menu-title {
-  color: var(--salmon-pink);
+  color: hsl(272, 98%, 80%);
   font-size: var(--fs-4);
   font-weight: var(--weight-600);
 }
@@ -912,7 +912,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .banner-subtitle {
-  color: var(--salmon-pink);
+  color: hsl(272, 98%, 80%);
   font-size: var(--fs-7);
   font-weight: var(--weight-500);
   text-transform: capitalize;
@@ -933,7 +933,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .banner-btn {
-  background: var(--salmon-pink);
+  background: hsl(272, 98%, 80%);
   color: var(--white);
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -1037,7 +1037,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .category-btn {
-  color: var(--salmon-pink);
+  color: hsl(272, 98%, 80%);
   font-size: var(--fs-9);
   font-weight: var(--weight-500);
   text-transform: capitalize;
@@ -1374,7 +1374,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .product-minimal .showcase-category:hover {
-  color: var(--salmon-pink);
+  color: hsl(272, 98%, 80%);
 }
 
 .product-minimal .price-box {
@@ -1392,7 +1392,7 @@ body::-webkit-scrollbar-thumb:hover {
 .product-minimal .price {
   font-size: var(--fs-7);
   font-weight: var(--weight-700);
-  color: var(--salmon-pink);
+  color: hsl(272, 98%, 80%);
 }
 
 .product-minimal .price-box del {
@@ -1488,7 +1488,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .product-featured .price {
-  color: var(--salmon-pink);
+  color: hsl(272, 98%, 80%);
   font-weight: var(--weight-700);
 }
 
@@ -1498,7 +1498,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .product-featured .add-cart-btn {
-  background: var(--salmon-pink);
+  background: hsl(272, 98%, 80%);
   padding: 8px 15px;
   color: var(--white);
   font-weight: var(--fs-9);
@@ -1556,7 +1556,7 @@ body::-webkit-scrollbar-thumb:hover {
   left: 3px;
   height: 4px;
   width: 40%;
-  background: var(--salmon-pink);
+  background: hsl(272, 98%, 80%);
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
@@ -1699,7 +1699,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .product-grid .showcase-badge.pink {
-  background: var(--salmon-pink);
+  background: hsl(272, 98%, 80%);
 }
 
 .product-grid .showcase-actions {
@@ -1746,7 +1746,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .product-grid .showcase-category {
-  color: var(--salmon-pink);
+  color: hsl(272, 98%, 80%);
   font-size: var(--fs-9);
   font-weight: var(--weight-500);
   text-transform: uppercase;
@@ -1962,7 +1962,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .service-icon {
   font-size: 35px;
-  color: var(--salmon-pink);
+  color: hsl(272, 98%, 80%);
   -webkit-transition: var(--transition-timing);
   -o-transition: var(--transition-timing);
   transition: var(--transition-timing);
@@ -2030,7 +2030,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  color: var(--salmon-pink);
+  color: hsl(272, 98%, 80%);
   font-size: var(--fs-8);
 }
 
@@ -2046,7 +2046,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .blog-title:hover {
-  color: var(--salmon-pink);
+  color: hsl(272, 98%, 80%);
 }
 
 .blog-meta {
@@ -2075,7 +2075,7 @@ footer {
 }
 
 .footer-category-title {
-  color: var(--salmon-pink);
+  color: hsl(272, 98%, 80%);
   font-size: var(--fs-6);
   font-weight: var(--weight-600);
   text-transform: uppercase;
@@ -2164,7 +2164,7 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: var(--salmon-pink);
+  background: hsl(272, 98%, 80%);
   width: 60px;
   height: 1px;
 }
@@ -2187,7 +2187,7 @@ footer {
 }
 
 .footer-nav-link:hover {
-  color: var(--salmon-pink);
+  color: hsl(272, 98%, 80%);
 }
 
 .footer-nav-item.flex {
@@ -2795,7 +2795,7 @@ footer {
   }
 
   .header-social-container .social-link:hover {
-    background: var(--salmon-pink);
+    background: hsl(272, 98%, 80%);
     color: var(--white);
   }
 
@@ -2822,7 +2822,7 @@ footer {
     position: absolute;
     top: -2px;
     right: -3px;
-    background: var(--bittersweet);
+    background: hsl(275, 100%, 70%);
     color: var(--white);
     font-size: 12px;
     font-weight: var(--weight-500);
@@ -2870,7 +2870,7 @@ footer {
   }
 
   .desktop-menu-category-list .menu-category > .menu-title:hover {
-    color: var(--salmon-pink);
+    color: hsl(272, 98%, 80%);
   }
 
   .desktop-menu-category-list .menu-category > .menu-title::after {
@@ -2880,7 +2880,7 @@ footer {
     left: 0;
     width: 100%;
     height: 2px;
-    background: var(--salmon-pink);
+    background: hsl(272, 98%, 80%);
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
@@ -2955,7 +2955,7 @@ footer {
   }
 
   .panel-list-item a:hover {
-    color: var(--salmon-pink);
+    color: hsl(272, 98%, 80%);
   }
 
   .panel-list-item:not(:last-child) a {
@@ -3017,7 +3017,7 @@ footer {
   }
 
   .dropdown-list .dropdown-item a:hover {
-    color: var(--salmon-pink);
+    color: hsl(272, 98%, 80%);
   }
 
   .mobile-bottom-navigation {
