@@ -52,12 +52,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'RentalAxis.urls'
+ROOT_URLCONF = 'RA.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR,"Template"],
+        'DIRS': [BASE_DIR,"RA/Template"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
