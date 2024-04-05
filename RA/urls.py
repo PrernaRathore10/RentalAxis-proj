@@ -33,5 +33,6 @@ urlpatterns = [
     path('contact/', views.Contact, name='contact'),
     path('users_list/', views.users, name='users_list'),
     path('users_list/details/<int:id>', views.details, name='details'),
+    path('testing/', views.testing, name='testing'),    
 
 ]
